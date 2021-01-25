@@ -72,7 +72,10 @@ def scrap(page='',total=None):
         print("Done:",str(done)+'/'+str(total))
     os.chdir(Parent)
 
-scrap('business',2)
+scrap('business',4)
+scrap('india',4)
+scrap('world',4)
+
 
 
 
